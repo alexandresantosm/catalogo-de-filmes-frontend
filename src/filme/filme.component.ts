@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
       <label>Filme: {{nomeFilme}}</label>
       <br>
       <label>Publicação: {{anoPublicacao}}</label>
+      <br>
     `
   }
 )
