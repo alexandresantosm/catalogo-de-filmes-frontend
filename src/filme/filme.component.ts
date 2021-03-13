@@ -5,12 +5,18 @@ import { Component } from '@angular/core';
     selector: 'filme',
     template: `
       <h2>Catálogo de Filmes</h2>
-      <label>Filme: Avatar</label>
+      <label>Filme: {{nomeFilme}}</label>
       <br>
-      <label>Publicação: 2009</label>
+      <label>Publicação: {{anoPublicacao}}</label>
     `
   }
 )
 export class FilmeComponent {
+  nomeFilme: string;
+  anoPublicacao: number;
 
+  constructor() {
+    this.nomeFilme = 'Matrix';
+    this.anoPublicacao = 1999;
+  }
 }
