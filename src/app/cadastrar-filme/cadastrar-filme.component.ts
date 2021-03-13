@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { from } from 'rxjs';
 import { Filme } from './filme.model';
 import { FilmeService } from './filme.service';
 

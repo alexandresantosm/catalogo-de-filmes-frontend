@@ -14,4 +14,8 @@ export class FilmeService {
   cadastrarFilme(filme: Filme) {
     return this.httpClient.post('http://localhost:8080/CatalogoDeFilmes/persistir-filme', filme);
   }
+
+  consultarFilme(id: number) {
+    return this.httpClient.get<Filme>('http://localhost:8080/CatalogoDeFilmes/consultar-filme?id=' + id);
+  }
 }

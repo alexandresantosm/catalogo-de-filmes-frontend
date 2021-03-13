@@ -10,6 +10,7 @@ import { FilmeComponent } from 'src/filme/filme.component';
 import { AutorComponent } from 'src/autor/autor.component';
 import { CadastrarFilmeComponent } from './cadastrar-filme/cadastrar-filme.component';
 import { FilmeService } from './cadastrar-filme/filme.service';
+import { ConsultarFilmeComponent } from './consultar-filme/consultar-filme.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FilmeService } from './cadastrar-filme/filme.service';
     FilmeComponent,
     AutorComponent,
     CadastrarFilmeComponent,
+    ConsultarFilmeComponent,
   ],
   imports: [
     BrowserModule,
